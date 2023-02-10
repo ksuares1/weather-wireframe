@@ -1,0 +1,15 @@
+body{
+    padding:60px;
+}
+.container{
+    border:solid black;
+    width:800px;
+    height:25%;
+    padding:30px;
+    margin:0 auto;
+
+}
+
+.container:hover{
+    border:solid blue;
+}
