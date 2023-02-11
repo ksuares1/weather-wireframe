@@ -58,7 +58,9 @@ h2{
 .degree{
     font-size:20px;
 }
-
+a:link{
+    text-decoration:none ;
+}
 .weather-type{
     margin:0 auto;
 }
