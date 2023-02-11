@@ -18,16 +18,25 @@ body{
 }
 
 
-
-.city{
-    top:20px;
-    padding: 20px;
-    position: fixed;
-     top: -15px;
-     left: -50;
+.form-control{
+    width: 65%;
 }
 
 h2{
     color:blue;
     font-weight: 700;
+}
+
+.current-btn #button-addon2{
+    display:flex;
+    gap:40px;
+    border-radius: 8px;
+}
+
+.elements-group{
+    position:fixed;
+    top: 10px;;
+    left:500px;
+    bottom:30px;
+    padding:55px;
 }
