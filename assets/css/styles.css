@@ -24,12 +24,11 @@ body{
 
 h2{
     color:blue;
-    font-weight: 700;
+    font-weight:thin;
+    font-size:24px;
 }
 
-.current-btn #button-addon2{
-    display:flex;
-    gap:40px;
+.current-btn, #button-addon2{  
     border-radius: 8px;
 }
 
@@ -38,5 +37,28 @@ h2{
     top: 10px;;
     left:500px;
     bottom:30px;
-    padding:55px;
+    padding:85px;
+    margin:0 auto;
+}
+
+.temp{
+    font-weight:bold;
+    font-size:40px;
+}
+
+.temp{
+    position: relative;
+    margin: 30px;
+    top:10px;
+    left:0;
+    right:0;
+    padding-bottom:-0 ;
+}
+
+.degree{
+    font-size:20px;
+}
+
+.weather-type{
+    margin:0 auto;
 }
