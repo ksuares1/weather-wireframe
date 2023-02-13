@@ -76,13 +76,14 @@ a:link{
 }
 
 .temp-city{
-padding: 20px;
+ padding: 5px;
+ margin:0 auto;
   position: relative;
   top:-10px;
   right:-85x;
   left:0px;
   font-size:17px;
-   
+text-align:right;
 }
 
 .city-info{
