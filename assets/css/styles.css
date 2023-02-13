@@ -7,8 +7,8 @@ body{
 
 .elements-container{
     border:solid black;
-    width:65%;
-    height:35%;
+    width:63%;
+    height:23%;
     padding:250px;
     margin:0 auto;
 }
@@ -85,6 +85,8 @@ a:link{
 text-align:right;
 display: block;
 }
+
+
 
 .city-info{
     font-weight:bold;
