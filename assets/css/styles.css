@@ -1,6 +1,6 @@
 body{
     padding:60px;
-    text-align: left;
+    margin:0 auto;
 }
 
 
@@ -20,6 +20,7 @@ body{
 
 .form-control{
     width: 65%;
+    padding:10px;
 }
 
 h2{
@@ -30,6 +31,12 @@ h2{
 
 .current-btn, #button-addon2{  
     border-radius: 8px;
+}
+
+
+.btn-success{
+    width:115px;
+    height:99%;
 }
 
 .elements-group{
