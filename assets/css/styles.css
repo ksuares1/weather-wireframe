@@ -1,16 +1,16 @@
 body{
     padding:60px;
+    text-align: left;
 }
 
 
 
 .elements-container{
     border:solid black;
-    width:50%;
+    width:65%;
     height:25%;
     padding:250px;
     margin:0 auto;
-
 }
 
 .elements-container:hover{
@@ -34,10 +34,10 @@ h2{
 
 .elements-group{
     position:fixed;
-    top: 10px;;
-    left:500px;
+    top: -10px;;
+    left:250px;
     bottom:30px;
-    padding:85px;
+    padding:100px;
     margin:0 auto;
 }
 
