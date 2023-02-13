@@ -1,13 +1,14 @@
 body{
     padding:60px;
     margin:0 auto;
+    
 }
 
 
 
 .elements-container{
     border:solid black;
-    width:63%;
+    width:915px;
     height:23%;
     padding:250px;
     margin:0 auto;
