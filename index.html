@@ -1,79 +1,126 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-          crossorigin="anonymous"/>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="assets/css/styles.css"/>
-        <title>☀️Weather App</title>
-    </head>
-    <body>
-        <div class="elements-container">
-        <div class="elements-group">
-                <h2>New York </h2>
-          
-      <div class="input-group">
-     <input type="text" class="form-control" />
-     <button class="btn btn-primary" type="button" id="button-addon2">Search</button>
-       
-     <!-- Search Button -->
-     <div class="current-btn">
-        <button type="button" class="btn btn-success">Current</button>
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous"/>
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+          <link rel="stylesheet" href="assets/css/styles.css"/>
+          <title>☀️Weather App</title>
+      </head>
+      <body>
+          <div class="elements-container">
+          <div class="elements-group">
+                  <h2>New York </h2>
+            
+        <div class="input-group">
+      <input type="text" class="form-control" />
+      <button class="btn btn-primary" type="button" id="button-addon2">Search</button>
+        
+      <!-- Search Button -->
+      <div class="current-btn">
+          <button type="button" class="btn btn-success">Current</button>
+          </div>
         </div>
-      </div>
 
-        <div class="temp-container">
-        <div class="row">
-        <!-- Temperature -->
-        <div class="col-6">
-      <p class="temp">37 <sup><span class="degree">&#8457;</span></sup></p>
-        </div>
-      <div class="weather-type">
-      <span >
-          <a href="#" class="weather-type">
-          Temperature |
-          </a>
-        </span>
-       
-        <span>
-          <a href="#" class="weather-type">
-        Precipitation  |
-          </a>
-        </span>
-       
-        <span>
-          <a href="#" class="weather-type">
-          Wind 
-          </a>
-        </span>
-        </div>
-      
-        <!-- current temperature details -->
-       
-          <div class="temp-city">
-             <p>New York,NY</p>
-             <span><p id="city-info">Tuesday 6:22 P.M.</p></span>
-             <p>Cloudy</p>
+          <div class="temp-container">
+          <div class="row">
+          <!-- Temperature -->
+          <div class="col-6">
+        <p class="temp">37 <sup><span class="degree">&#8457;</span></sup></p>
+          </div>
+        <div class="weather-type">
+        <span >
+            <a href="#" class="weather-type">
+            Temperature |
+            </a>
+          </span>
+        
+          <span>
+            <a href="#" class="weather-type">
+          Precipitation  |
+            </a>
+          </span>
+        
+          <span>
+            <a href="#" class="weather-type">
+            Wind 
+            </a>
+          </span>
+          </div>
+        
+          <!-- current temperature details -->
+        
+          
+          
+          </div>
+          <div class="temp-city col-6>
+              <p class="city-one">New York, NY</p>
+              <span><p class="city-info">Tuesday 6:22 P.M.</p></span>
+              <p class="city-info-three">Cloudy</p>
+            </div>
+            
+            <!-- Multiple columns -->
+            <div class="container weather-forecast">
+        <div class="row weather-forecast">
+         
+          <div class="col-md-2">
+            <i class="fa-solid fa-sun"></i>
+            <p>Sunday</p> 
+          </div>
+          
+          <div class="col-md-2">
+            <i class="fa-solid fa-cloud-sun-rain"></i>
+            <p>Monday</p>
           </div>
          
-        </div>
-        </div>
-
-
-
-
-      </div>
-      
-     
-       
+          <div class="col-md-2">
+            <i class="fa-solid fa-cloud-sun-rain"></i>
+            <p>Tuesday</p>
+          </div>
+         
+          <div class="col-md-2">
+                <i class="fa-solid fa-cloud-moon-rain"></i>
+            <p>Wednesday</p>
+          </div>
           
+          <div class="col-md-2">
+           <i class="fa-solid fa-sun"></i>
+            <p>Thursday</p>
+          </div>
+          
+          <div class="col-md-2">
+           <i class="fa-regular fa-sun"></i>
+           <p>Friday</p>
+          </div>
+          
+          
+          <div class="col-md-1">
+            <i class="fa-regular fa-snowflake"></i>
+            <p>
+              Saturday
+            </p>
+          </div>
         </div>
-    </body>
-    </html>
+      </div>
+            
+          </div>
+
+
+
+
+        </div>
+        
+      
+        
+            
+          </div>
+          <script src="https://kit.fontawesome.com/7c9c946b91.js" crossorigin="anonymous"></script>
+      </body>
+      </html>
