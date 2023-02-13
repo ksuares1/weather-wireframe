@@ -92,4 +92,5 @@ padding: 20px;
 .weather-forecast{
     display: flex;
     flex-wrap: nowrap;
+    margin:0 auto;
 }
