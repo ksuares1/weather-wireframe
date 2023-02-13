@@ -51,10 +51,6 @@ h2{
     margin:0 auto;
 }
 
-.temp{
-    font-weight:bold;
-    font-size:40px;
-}
 
 .temp{
     position: relative;
@@ -62,7 +58,11 @@ h2{
     top:10px;
     left:0;
     right:0;
+    padding:20px;
+    margin:20px;
     padding-bottom:-0 ;
+    font-weight:bold;
+    font-size:40px;
 }
 
 .degree{
@@ -76,14 +76,15 @@ a:link{
 }
 
 .temp-city{
- padding: 5px;
- margin:0 auto;
+ padding: 65px; 
+  margin:0 auto; 
   position: relative;
-  top:-10px;
+  top:-5px;
   right:-85x;
   left:0px;
   font-size:17px;
 text-align:right;
+display: block;
 }
 
 .city-info{
