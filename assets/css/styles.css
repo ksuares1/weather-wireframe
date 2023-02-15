@@ -13,7 +13,9 @@ body{
     padding:250px;
     margin:0 auto;
     position: relative;
-    right: 30px;
+    top:-10px;
+    right: 45px;
+    left:-50px;
     border-radius:8px;
 }
 
